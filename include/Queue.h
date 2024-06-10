@@ -19,11 +19,13 @@ public:
   bool isEmpty();
   void displayQueue();
   void displayRecentOrder();
+  void clearOrderHistory();
   
 
 private:
   std::queue<Order> orders;
   std::vector<Order> orderHistory;
+
 };
 
 #endif

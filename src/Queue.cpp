@@ -13,6 +13,13 @@ void Queue::dequeue() {
     dequeueByCustomer(customerName);
   }
 }
+void Queue::clearOrderHistory() {
+    orderHistory.clear();
+    while (!orders.empty()) {
+        orders.pop();
+    }
+    cout << "Riwayat pesanan berhasil dihapus." << endl;
+}
 
 void Queue::displayRecentOrder() {
   if (orderHistory.empty()) {

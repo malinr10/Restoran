@@ -70,7 +70,7 @@ void OrderMenu::displayOrderMenu(Queue &queue, std::string &currentCustomerName)
                 }
                 break;
             case 2:
-                queue.dequeue();
+                queue.clearOrderHistory();
                 break;
             case 3:
                 queue.displayRecentOrder();
