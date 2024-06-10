@@ -1,0 +1,6 @@
+ayam makanan 4
+burger makanan 4
+es_krim dessert 4
+soda minuman 5
+kentang_goreng makanan 10
+pasta makanan 9
